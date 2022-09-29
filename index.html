@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+  <title>Тестовое задание</title>
+  <meta charset="UTF-8">
+  <meta name="copy" http-equiv="content-type" content="text/image">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="form">
+  <form action="#" method="POST" name="form">
+    <p><input class="input" id="namef" type="text" placeholder="Имя" name="namef" minlength="1" maxlength="45" pattern="^[А-Яа-яЁё]+$" required></p>
+    <p><input class="input" id="names" type="text" placeholder="Фамилия" name="names" minlength="1" maxlength="45" pattern="^[А-Яа-яЁё]+$" required></p>
+    <p><input class="input" id="yourdate" type="text" placeholder="Дата рождения" name="yourdate" required></p>
+    <p><input class="input" id="email" type="email" placeholder="E-mail" name="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,})" required></p>
+    <p><input class="input" id="passone" type="password" placeholder="Пароль" name="passone" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*" required></p>
+    <p><input class="input" id="passtwo" type="password" placeholder="Повторите пароль" name="passtwo" required></p>
+    <p><input id="submit" type="submit" value="Отправить"></p>
+  </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

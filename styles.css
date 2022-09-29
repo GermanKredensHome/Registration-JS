@@ -1,0 +1,40 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+blockquote, a, em, img, strong, ol, ul, li, form,
+label, article, aside, figure, figcaption, footer,
+header, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, footer, header, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+body {
+  background-color: rgb(55, 51, 122);
+}
+
+.form {
+  margin: 15%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+}
+
+#submit {
+  width: 308px;
+  height: 30px;
+  font-weight: 700;
+}
